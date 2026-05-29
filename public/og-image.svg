@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b3e"/>
+      <stop offset="100%" stop-color="#1a3566"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- LineChart icon (lucide), 8x scale, centered horizontally, top portion -->
+  <!-- Original 24x24 paths: M3 3v18h18 and m19 9-5 5-4-4-3 3 -->
+  <!-- scale(8): icon content spans (24,24)-(168,168), centered at (96,96) -->
+  <!-- translate(504, 140): places icon center at canvas (600, 236) -->
+  <g transform="translate(504, 140) scale(8)"
+     stroke="white" stroke-width="0.375" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M3 3v18h18"/>
+    <path d="m19 9-5 5-4-4-3 3"/>
+  </g>
+
+  <!-- Accent separator line -->
+  <line x1="460" y1="325" x2="740" y2="325" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+
+  <!-- Name -->
+  <text x="600" y="392"
+        text-anchor="middle"
+        font-family="'Segoe UI', 'Inter', system-ui, -apple-system, sans-serif"
+        font-size="64" font-weight="700" fill="white">
+    Robert T. McMaster
+  </text>
+
+  <!-- Title -->
+  <text x="600" y="448"
+        text-anchor="middle"
+        font-family="'Segoe UI', 'Inter', system-ui, -apple-system, sans-serif"
+        font-size="32" fill="rgba(255,255,255,0.75)">
+    Senior Data Professional
+  </text>
+</svg>

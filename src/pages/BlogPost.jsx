@@ -68,7 +68,7 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (post) {
-      document.title = `${post.title} — Niladri Chatterjee`
+      document.title = `${post.title} — Robert T. McMaster`
     }
   }, [post])
 

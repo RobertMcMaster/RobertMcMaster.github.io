@@ -4,18 +4,15 @@
  */
 
 export const CONTACT_INFO = {
-  email: 'code.niladri@gmail.com',
-  phone: '+916296554939',
-  whatsapp: '+916296554939',
-  location: 'Kolkata, West Bengal, India',
-  timezone: 'IST (UTC+5:30)',
-  github: 'https://github.com/niladri-1',
-  linkedin: 'https://linkedin.com/in/niladri1',
-  twitter: '@niladri_dev',
+  email: 'RobertMcMaster412@gmail.com',
+  location: 'Pittsburgh, PA',
+  timezone: 'ET (UTC-5)',
+  github: 'https://github.com/RobertMcMaster',
+  linkedin: 'https://linkedin.com/in/robert-mcmaster',
 }
 
 export const OFFICE_HOURS = {
-  weekday: 'Monday - Friday: 9:00 AM - 6:00 PM (IST)',
-  saturday: 'Saturday: 10:00 AM - 2:00 PM (IST)',
+  weekday: 'Monday - Friday: 9:00 AM - 5:00 PM (ET)',
+  saturday: 'Saturday: Closed',
   sunday: 'Sunday: Closed',
 }

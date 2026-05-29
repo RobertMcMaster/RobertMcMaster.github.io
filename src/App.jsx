@@ -21,14 +21,14 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 // Per-page SEO metadata
 const pageMeta = {
   "/": {
-    title: "Robert T. McMaster - Senior Data Analyst | Power BI & SQL Expert",
+    title: "Robert T. McMaster - Senior Data Professional | Power BI & SQL Expert",
     description:
-      "Robert T. McMaster — Senior Data Analyst specializing in Power BI, SQL, Snowflake, and cloud data architecture. Based in Pittsburgh, PA.",
+      "Robert T. McMaster — Senior Data Professional specializing in Power BI, SQL, Snowflake, and cloud data architecture. Based in Pittsburgh, PA.",
   },
   "/about": {
-    title: "About - Robert T. McMaster | Senior Data Analyst",
+    title: "About - Robert T. McMaster | Senior Data Professional",
     description:
-      "Learn about Robert T. McMaster — MBA & MS Analytics graduate, Senior Data Analyst with 3+ years of experience transforming data into business decisions.",
+      "Learn about Robert T. McMaster — MBA & MS Analytics graduate, Senior Data Professional with 3+ years of experience transforming data into business decisions.",
   },
   "/projects": {
     title: "Projects - Robert T. McMaster | Data & Analytics Portfolio",
@@ -41,7 +41,7 @@ const pageMeta = {
       "Technical skills of Robert T. McMaster — SQL, Power BI, Snowflake, Python, Azure, Data Vault, ETL, and more.",
   },
   "/experience": {
-    title: "Experience - Robert T. McMaster | Senior Data Analyst",
+    title: "Experience - Robert T. McMaster | Senior Data Professional",
     description:
       "Professional experience of Robert T. McMaster at Schneider Downs and Data Ideology in data analytics and business intelligence.",
   },
@@ -56,7 +56,7 @@ const pageMeta = {
       "Professional certifications of Robert T. McMaster including SnowPro Core, Power BI PL-300, and six Microsoft Azure certifications.",
   },
   "/contact": {
-    title: "Contact - Robert T. McMaster | Senior Data Analyst",
+    title: "Contact - Robert T. McMaster | Senior Data Professional",
     description:
       "Get in touch with Robert T. McMaster for job opportunities, collaborations, or analytics consulting. Based in Pittsburgh, PA.",
   },
@@ -78,9 +78,9 @@ function SEOUpdater() {
 
   useEffect(() => {
     const meta = pageMeta[location.pathname] || {
-      title: "Robert T. McMaster - Senior Data Analyst",
+      title: "Robert T. McMaster - Senior Data Professional",
       description:
-        "Portfolio of Robert T. McMaster — Senior Data Analyst specializing in Power BI, SQL, Snowflake, and cloud data architecture.",
+        "Portfolio of Robert T. McMaster — Senior Data Professional specializing in Power BI, SQL, Snowflake, and cloud data architecture.",
     };
 
     document.title = meta.title;
@@ -98,14 +98,14 @@ function SEOUpdater() {
     if (ogUrl)
       ogUrl.setAttribute(
         "content",
-        `https://niladri1.vercel.app${location.pathname}`,
+        `https://robertmcmaster.github.io${location.pathname}`,
       );
 
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical)
       canonical.setAttribute(
         "href",
-        `https://niladri1.vercel.app${location.pathname}`,
+        `https://robertmcmaster.github.io${location.pathname}`,
       );
   }, [location]);
 
