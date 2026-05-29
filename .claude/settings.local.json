@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm uninstall *)",
+      "Bash(Copy-Item \"C:\\\\Users\\\\Bobby\\\\personal-projects\\\\professional_website\\\\Personal-portfolio-main\\\\misc\\\\RM_headshot.jpg\" \"C:\\\\Users\\\\Bobby\\\\personal-projects\\\\professional_website\\\\Personal-portfolio-main\\\\src\\\\assets\\\\profile\\\\profile.jpg\" -Force)",
+      "Bash(Copy-Item \"C:\\\\Users\\\\Bobby\\\\personal-projects\\\\professional_website\\\\Personal-portfolio-main\\\\misc\\\\RobertMcMaster_Resume.docx\" \"C:\\\\Users\\\\Bobby\\\\personal-projects\\\\professional_website\\\\Personal-portfolio-main\\\\src\\\\assets\\\\files\\\\cv_pdf\\\\RobertMcMaster_Resume.docx\" -Force)",
+      "PowerShell(Copy-Item *)",
+      "Bash(node -e \"const l = require\\('./node_modules/lucide-react'\\); console.log\\('Chess' in l, 'Dumbbell' in l, 'Bike' in l, 'Trophy' in l, 'Target' in l, 'Flag' in l, 'Activity' in l, 'Brain' in l\\)\")",
+      "Bash(Remove-Item *)"
+    ]
+  }
+}
