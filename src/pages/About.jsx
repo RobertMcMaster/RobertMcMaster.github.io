@@ -55,7 +55,7 @@ const About = () => {
         <ScrollAnimation className="space-y-6">
           <div className="space-y-4">
             <p className="text-gray-300 leading-relaxed">
-              Hi, I'm Robert — a Senior Data Analyst with a passion for building
+              Hey I'm Robert — a senior data professional who specializes in building
               data systems that help organizations make better decisions. I work
               at the intersection of data engineering, business intelligence, and
               stakeholder strategy.
@@ -63,15 +63,15 @@ const About = () => {
             <p className="text-gray-300 leading-relaxed">
               I hold an MBA and an MS in Analytics and Information Management
               from Duquesne University, alongside a BS in Computer Science from
-              Allegheny College. That combination of technical depth and business
-              acumen shapes how I approach every project — from designing Data
-              Vault models to presenting insights to executives.
+              Allegheny College. That dual perspective allows me to understand
+              both the strategic objectives and technical requirements
+              necessary to implement effective data solutions.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Most recently I've been optimizing large-scale SQL pipelines,
-              building Power BI dashboards for healthcare operations, and
-              automating manual processes with Power Automate — reducing errors
-              and reclaiming hours every week for the teams I support.
+              Currently, I work as a Senior Data Analyst at Schneider Downs,
+              where I partner with clients to design and implement end-to-end data solutions
+              across the full lifecycle from data modeling and pipeline development through
+              business-facing reporting and dashboards.
             </p>
           </div>
 

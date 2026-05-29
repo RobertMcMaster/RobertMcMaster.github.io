@@ -16,7 +16,7 @@ const educationData = [
       "Leadership & Organizational Behavior",
     ],
     description:
-      "Developed business acumen to complement my technical analytics background, focusing on translating data insights into organizational strategy and executive communication.",
+      "Developed the business acumen to translate data insights into organizational strategy, financial decision-making, and executive communication.",
   },
   {
     school: "Duquesne University",
@@ -28,12 +28,11 @@ const educationData = [
     highlights: [
       "Data Mining",
       "Predictive Analytics",
-      "Information Systems",
       "Database Management",
       "Business Intelligence",
     ],
     description:
-      "Built a rigorous foundation in data analysis, machine learning, and enterprise information systems, directly informing my approach to real-world analytics engineering.",
+      "Built a rigorous foundation in data analysis, predictive modeling, and enterprise information systems that directly informs my approach to analytics engineering.",
   },
   {
     school: "Allegheny College",
@@ -45,12 +44,10 @@ const educationData = [
     highlights: [
       "Data Structures & Algorithms",
       "Software Development",
-      "Databases",
       "Operating Systems",
-      "Networking",
     ],
     description:
-      "Established a strong computer science foundation that underpins my technical work in SQL optimization, data architecture, and automated pipeline development.",
+      "Established the technical foundation that underpins my career, developing core proficiency in SQL and Python alongside fundamental software development principles and computer science theory.",
   },
 ];
 

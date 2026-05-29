@@ -20,7 +20,8 @@ const skills = [
       { name: "Snowflake", icon: <Cloud className="w-4 h-4" /> },
       { name: "SQL Server", icon: <Database className="w-4 h-4" /> },
       { name: "Oracle", icon: <Database className="w-4 h-4" /> },
-      { name: "Data Vault", icon: <GitBranch className="w-4 h-4" /> },
+      /*{ name: "Data Vault", icon: <GitBranch className="w-4 h-4" /> }, */
+      { name: "Normalization", icon: <Database className="w-4 h-4" /> },
       { name: "Star Schema", icon: <GitBranch className="w-4 h-4" /> },
     ],
   },
@@ -56,7 +57,7 @@ const skills = [
       { name: "ETL Pipelines", icon: <Zap className="w-4 h-4" /> },
     ],
   },
-  {
+  /*{
     category: "Data Modeling",
     icon: <GitBranch className="w-6 h-6" />,
     items: [
@@ -65,7 +66,7 @@ const skills = [
       { name: "Normalization", icon: <Database className="w-4 h-4" /> },
       { name: "ERD Design", icon: <GitBranch className="w-4 h-4" /> },
     ],
-  },
+  }, */
   {
     category: "Methodologies",
     icon: <Users className="w-6 h-6" />,
