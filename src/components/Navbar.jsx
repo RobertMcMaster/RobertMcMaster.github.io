@@ -35,7 +35,7 @@ const Navbar = () => {
             {/* Logo — left */}
             <Link to="/" className="flex-shrink-0 flex items-center space-x-2">
               <LineChart className="w-7 h-7 text-white" aria-hidden="true" />
-              <span className="text-lg font-bold text-white">Robert McMaster</span>
+              <span className="text-lg font-bold text-white">Robert T. McMaster</span>
             </Link>
 
             {/* Desktop Navigation — centered */}

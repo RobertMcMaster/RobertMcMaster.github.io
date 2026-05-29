@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="space-y-2">
             <Link to="/" className="flex items-center space-x-2">
               <LineChart className="w-5 h-5 text-white" aria-hidden="true" />
-              <span className="text-base font-bold text-white">Robert McMaster</span>
+              <span className="text-base font-bold text-white">Robert T. McMaster</span>
             </Link>
             <p className="text-sm text-gray-400">Senior Data Analyst</p>
             <p className="text-sm text-gray-500">Pittsburgh, PA</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                 <a
                   href="mailto:RobertMcMaster412@gmail.com"
                   className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-                  aria-label="Email Robert McMaster"
+                  aria-label="Email Robert T. McMaster"
                 >
                   <Mail className="w-4 h-4" aria-hidden="true" />
                   RobertMcMaster412@gmail.com
@@ -69,7 +69,7 @@ const Footer = () => {
                 <a
                   href="tel:+14124189094"
                   className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-                  aria-label="Call Robert McMaster"
+                  aria-label="Call Robert T. McMaster"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" />
                   412-418-9094
@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400">
-              © {currentYear} Robert McMaster. All rights reserved.
+              © {currentYear} Robert T. McMaster. All rights reserved.
             </p>
           </div>
         </div>

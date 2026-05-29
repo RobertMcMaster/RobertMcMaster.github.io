@@ -1,4 +1,4 @@
-# Robert McMaster — Personal Portfolio
+# Robert T. McMaster — Personal Portfolio
 
 Personal portfolio website built with React, Vite, and Tailwind CSS. Deployed via GitHub Pages at [robertmcmaster.github.io](https://robertmcmaster.github.io).
 

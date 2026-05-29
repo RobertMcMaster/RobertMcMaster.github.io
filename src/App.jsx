@@ -21,54 +21,54 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 // Per-page SEO metadata
 const pageMeta = {
   "/": {
-    title: "Robert McMaster - Senior Data Analyst | Power BI & SQL Expert",
+    title: "Robert T. McMaster - Senior Data Analyst | Power BI & SQL Expert",
     description:
-      "Robert McMaster — Senior Data Analyst specializing in Power BI, SQL, Snowflake, and cloud data architecture. Based in Pittsburgh, PA.",
+      "Robert T. McMaster — Senior Data Analyst specializing in Power BI, SQL, Snowflake, and cloud data architecture. Based in Pittsburgh, PA.",
   },
   "/about": {
-    title: "About - Robert McMaster | Senior Data Analyst",
+    title: "About - Robert T. McMaster | Senior Data Analyst",
     description:
-      "Learn about Robert McMaster — MBA & MS Analytics graduate, Senior Data Analyst with 3+ years of experience transforming data into business decisions.",
+      "Learn about Robert T. McMaster — MBA & MS Analytics graduate, Senior Data Analyst with 3+ years of experience transforming data into business decisions.",
   },
   "/projects": {
-    title: "Projects - Robert McMaster | Data & Analytics Portfolio",
+    title: "Projects - Robert T. McMaster | Data & Analytics Portfolio",
     description:
-      "Explore analytics and data engineering projects built by Robert McMaster using Power BI, SQL, Python, and Azure.",
+      "Explore analytics and data engineering projects built by Robert T. McMaster using Power BI, SQL, Python, and Azure.",
   },
   "/skills": {
-    title: "Skills - Robert McMaster | SQL, Power BI, Snowflake, Python",
+    title: "Skills - Robert T. McMaster | SQL, Power BI, Snowflake, Python",
     description:
-      "Technical skills of Robert McMaster — SQL, Power BI, Snowflake, Python, Azure, Data Vault, ETL, and more.",
+      "Technical skills of Robert T. McMaster — SQL, Power BI, Snowflake, Python, Azure, Data Vault, ETL, and more.",
   },
   "/experience": {
-    title: "Experience - Robert McMaster | Senior Data Analyst",
+    title: "Experience - Robert T. McMaster | Senior Data Analyst",
     description:
-      "Professional experience of Robert McMaster at Schneider Downs and Data Ideology in data analytics and business intelligence.",
+      "Professional experience of Robert T. McMaster at Schneider Downs and Data Ideology in data analytics and business intelligence.",
   },
   "/education": {
-    title: "Education - Robert McMaster | MBA & MS Analytics",
+    title: "Education - Robert T. McMaster | MBA & MS Analytics",
     description:
-      "Educational background of Robert McMaster — MBA and MS Analytics from Duquesne University, BS Computer Science from Allegheny College.",
+      "Educational background of Robert T. McMaster — MBA and MS Analytics from Duquesne University, BS Computer Science from Allegheny College.",
   },
   "/certificates": {
-    title: "Certificates - Robert McMaster | Azure, Power BI, Snowflake",
+    title: "Certificates - Robert T. McMaster | Azure, Power BI, Snowflake",
     description:
-      "Professional certifications of Robert McMaster including SnowPro Core, Power BI PL-300, and six Microsoft Azure certifications.",
+      "Professional certifications of Robert T. McMaster including SnowPro Core, Power BI PL-300, and six Microsoft Azure certifications.",
   },
   "/contact": {
-    title: "Contact - Robert McMaster | Senior Data Analyst",
+    title: "Contact - Robert T. McMaster | Senior Data Analyst",
     description:
-      "Get in touch with Robert McMaster for job opportunities, collaborations, or analytics consulting. Based in Pittsburgh, PA.",
+      "Get in touch with Robert T. McMaster for job opportunities, collaborations, or analytics consulting. Based in Pittsburgh, PA.",
   },
   "/blog": {
-    title: "Blog - Robert McMaster | Data & Analytics Articles",
+    title: "Blog - Robert T. McMaster | Data & Analytics Articles",
     description:
-      "Articles by Robert McMaster on SQL, Power BI, data modeling, and analytics engineering.",
+      "Articles by Robert T. McMaster on SQL, Power BI, data modeling, and analytics engineering.",
   },
   "/hobbies": {
-    title: "Hobbies - Robert McMaster | Beyond the Data",
+    title: "Hobbies - Robert T. McMaster | Beyond the Data",
     description:
-      "Hobbies and interests of Robert McMaster — golf, pickleball, chess, cycling, and more.",
+      "Hobbies and interests of Robert T. McMaster — golf, pickleball, chess, cycling, and more.",
   },
 };
 
@@ -78,9 +78,9 @@ function SEOUpdater() {
 
   useEffect(() => {
     const meta = pageMeta[location.pathname] || {
-      title: "Robert McMaster - Senior Data Analyst",
+      title: "Robert T. McMaster - Senior Data Analyst",
       description:
-        "Portfolio of Robert McMaster — Senior Data Analyst specializing in Power BI, SQL, Snowflake, and cloud data architecture.",
+        "Portfolio of Robert T. McMaster — Senior Data Analyst specializing in Power BI, SQL, Snowflake, and cloud data architecture.",
     };
 
     document.title = meta.title;
