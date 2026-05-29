@@ -1,4 +1,4 @@
-import{c as t,j as e}from"./index-D2vklPEi.js";import{S as s}from"./ScrollAnimation-Dz8GbcrF.js";import{B as i}from"./book-open-DuRBFH2z.js";/**
+import{c as t,j as e}from"./index-Cl_PjPI9.js";import{S as s}from"./ScrollAnimation-CSaJvZJc.js";import{B as i}from"./book-open-CrddWE--.js";/**
  * @license lucide-react v0.344.0 - ISC
  *
  * This source code is licensed under the ISC license.
