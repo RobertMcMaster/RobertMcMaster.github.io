@@ -49,7 +49,7 @@ const Home = () => {
           Robert McMaster
         </motion.h1>
         <motion.h2
-          className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
+          className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -63,8 +63,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Senior Data Analyst | SQL, Power BI, Python — turning complex data
-          into clear business insights.
+          Senior data professional specializing in Power BI, SQL and Python.
         </motion.p>
 
         <motion.div
@@ -113,18 +112,13 @@ const Home = () => {
               href="https://linkedin.com/in/robert-mcmaster"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
               aria-label="Visit LinkedIn profile"
             >
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                aria-hidden="true"
-              >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="flex-shrink-0">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
+              <span className="text-sm">linkedin.com/in/robert-mcmaster</span>
             </a>
           </div>
         </motion.div>
