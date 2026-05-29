@@ -58,7 +58,7 @@ const Home = () => {
         </motion.h2>
 
         <motion.p
-          className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-4 sm:mb-5 max-w-2xl mx-auto px-2 sm:px-4"
+          className="text-base sm:text-xl md:text-2xl text-gray-400 mb-4 sm:mb-5 max-w-2xl mx-auto px-4 w-full"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -97,7 +97,7 @@ const Home = () => {
               aria-label={`Email: ${email}`}
             >
               <Mail className="w-4 h-4 text-gray-400 group-hover:text-white transition-colors flex-shrink-0" aria-hidden="true" />
-              <span className="text-gray-400 group-hover:text-white transition-colors sm:text-base">
+              <span className="text-gray-400 group-hover:text-white transition-colors sm:text-base hidden sm:inline">
                 {email}
               </span>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity hidden sm:block">
@@ -118,7 +118,7 @@ const Home = () => {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="flex-shrink-0">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
-              <span className="text-sm">linkedin.com/in/robert-mcmaster</span>
+              <span className="text-sm hidden sm:inline">linkedin.com/in/robert-mcmaster</span>
             </a>
           </div>
         </motion.div>
